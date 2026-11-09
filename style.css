@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 16px;
+    background-color: #dde2d0;
+    color: #1c2733;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.maquina {
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 18px 12px;
+    background-color: #3a2f22;
+    color: #e8e0cc;
+    border: 4px solid #9a7a2e;
+    border-radius: 14px;
+    box-shadow: 0 8px 0 #1f1810;
+}
+
+h1 {
+    font: 700 22px "Courier New", monospace;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 0 14px;
+    color: #d1ad57;
+}
+
+.dica {
+    text-align: center;
+    font-size: 14px;
+    margin: 0 0 14px;
+}
+
+.janelas {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.janelas input {
+    width: 54px;
+    height: 54px;
+    text-align: center;
+    text-transform: uppercase;
+    font: 700 22px "Courier New" monospace;
+    background-color: #f1ecd8;
+    color: #1c2733;
+    border: 3px solid#9a7a2e;
+    border-radius: 6px;
+}
+
+.fileira{
+    display: flex;
+    justify-content: center;
+}
+
+.lampada .tecla{
+    width: min(8.6vw, 42px);
+    height: min(8.6vw, 42px);
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font: 700 16px "Courier New", monospace;
+}
+
+.lampada{
+    background-color: #15110c;
+    color: #5b5444;
+    border: 2px solid #5b5444;
+    transition: all .15s;
+}
+
+.lampada.acesa{
+    background-color: rgb(247, 247, 247);
+    color: #232a31;
+    border-color: #ffc94d;
+    box-shadow: 0 0 14px 5px rgba(255, 201, 77, .8);
+}
